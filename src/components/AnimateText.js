@@ -31,7 +31,7 @@ const FadeText = (function() {
       while (helperArr.length > 0) {
         const index = helperArr[0];
         spans[index].style.transition = 'all .5s';
-        time += 250;
+        time += 80;
         setTimeout(() => {
           spans[index].style.opacity = 0;
         }, time);
