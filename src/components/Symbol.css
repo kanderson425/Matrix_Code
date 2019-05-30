@@ -1,10 +1,12 @@
 .symbol {
     font-size: 24px;
-    color:#009a22;
+    /* color:#009a22; */
+    color: #2C7188;
     text-shadow: 0px 0px 1px #36ba01;
   }
   
   .symbol.primary {
-    color:#8bff8b;
+    /* color:#8bff8b; */
+    color: #70778F;
     text-shadow: 0px 0px 10px white;
   }
