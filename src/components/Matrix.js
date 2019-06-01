@@ -13,7 +13,7 @@ const Message = () => (
   </div>
 );
 
-const CODE_LINES_COUNT = 200;
+const CODE_LINES_COUNT = 300;
 
 const Matrix = () => (
   <div className="Matrix">
@@ -24,6 +24,6 @@ const Matrix = () => (
 
 setTimeout(() => {
   FadeText.applyAnimation('MESSAGE');
-}, 2000);
+}, 1000);
 
 export default Matrix;
